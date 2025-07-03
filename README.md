@@ -1,13 +1,13 @@
-![logo](https://github.com/sahilatahar/Code-Sync/assets/100127570/d1ff7f52-a692-4d51-b281-358aeab9156e)
+<!-- ![logo](https://github.com/sahilatahar/Code-Sync/assets/100127570/d1ff7f52-a692-4d51-b281-358aeab9156e) -->
 
 A collaborative, real-time code editor where users can seamlessly code together. It provides a platform for multiple users to enter a room, share a unique room ID, and collaborate on code simultaneously.
 
-![GitHub contributors](https://img.shields.io/github/contributors/sahilatahar/Code-Sync?style=for-the-badge&color=48bf21)
+<!-- ![GitHub contributors](https://img.shields.io/github/contributors/sahilatahar/Code-Sync?style=for-the-badge&color=48bf21)
 ![GitHub Repo stars](https://img.shields.io/github/stars/sahilatahar/Code-Sync?style=for-the-badge)
 ![GitHub issues](https://img.shields.io/github/issues/sahilatahar/Code-Sync?style=for-the-badge&color=d7af2d)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/sahilatahar/Code-Sync?style=for-the-badge&color=f47373)
 ![GitHub License](https://img.shields.io/github/license/sahilatahar/Code-Sync?style=for-the-badge&color=e67234)
-![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fsahilatahar%2FCode-Sync&label=Repo%20Views&countColor=%2337d67a&labelStyle=upper)
+![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fsahilatahar%2FCode-Sync&label=Repo%20Views&countColor=%2337d67a&labelStyle=upper) -->
 
 ## 🔮 Features
 
@@ -47,9 +47,7 @@ You can view the live preview of the project [here](https://code-sync-live.verce
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
-## ⚙️ Installation
-
-### Method 1: Manual Installation
+### Installation
 
 1. **Fork this repository:** Click the Fork button located in the top-right corner of this page.
 2. **Clone the repository:**
@@ -90,50 +88,6 @@ You can view the live preview of the project [here](https://code-sync-live.verce
    ```bash
    http://localhost:5173/
    ```
-### 🎥 Need help with the setup?
-👉 Watch [this video](https://youtu.be/zVHwOmU0aqo) for a step-by-step guide.
-### Method 2: Docker Installation
-
-1. **Install Docker Desktop:**
-
-   - Download and install **Docker Desktop** from [Docker’s official website](https://www.docker.com/products/docker-desktop/).
-   - Verify installation:
-     ```bash
-     docker --version
-     ```
-
-2. **Pull Docker Images:**
-
-   ```bash
-   # Pull Backend Image
-   docker pull sahilatahar/code-sync-server:latest
-
-   # Pull Frontend Image
-   docker pull sahilatahar/code-sync-client:latest
-   ```
-
-3. **Run Docker Containers:**
-
-   ```bash
-   # Run Backend Container (Port 3000)
-   docker run -d -p 3000:3000 --name code-sync-server sahilatahar/code-sync-server:latest
-
-   # Run Frontend Container (Port 5173)
-   docker run -d -p 5173:5173 --name code-sync-client sahilatahar/code-sync-client:latest
-   ```
-
-4. **Access the application:**
-   ```bash
-   http://localhost:5173/
-   ```
-
-## 🔮 Features for Next Release
-
-- **Admin Permission:** Implement an admin permission system to manage user access levels and control over certain platform features.
-
-## 🤝 Contribute
-
-We welcome contributions to make Code Sync even better! Follow the [contribution guidelines](CONTRIBUTING.md) to get started.
 
 ## 🌟 Support Us
 
@@ -143,41 +97,24 @@ If you find this helpful or valuable, please consider 🌟 starring the reposito
 
 This project is licensed under the [MIT License](LICENSE).
 
-## 🌟 Appreciation for Resources
-
-Special thanks to:
-
-- EMKC for providing the Piston API:
-
-  - [Piston Repository](https://github.com/engineer-man/piston)
-  - [Piston Docs](https://piston.readthedocs.io/en/latest/api-v2/)
-
-- Tldraw contributors:
-  - [Tldraw Repository](https://github.com/tldraw/tldraw)
-  - [Tldraw Documentation](https://tldraw.dev/)
-
-- Pollinations AI:
-  - [Pollinations Repository](https://github.com/pollinations/pollinations)
-  - [Pollinations Docs](https://pollinations.ai/)
-
 ## ✍️ About Developer
 
 <table>
   <tbody>
     <tr>
       <td align="center" valign="top">
-        <img src="https://github.com/sahilatahar.png" width="120px;" alt="Sahil Atahar"/>
+        <img src="https://github.com/mitrarajdeep2001.png" width="120px;" alt="Sahil Atahar"/>
         <br />
         <b>Sahil Atahar</b>
       </td>
     </tr>
     <tr>
         <td align="center">
-            <a href="https://github.com/sahilatahar">
+            <a href="https://github.com/mitrarajdeep2001">
             <img src="https://img.shields.io/badge/GitHub-100000.svg?style=for-the-badge&logo=github&logoColor=white"/>
             </a>
             <br/>
-            <a href="https://linkedin.com/in/sahilatahar">
+            <a href="https://linkedin.com/in/rajdeep-mitra">
             <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/>
             </a>
         </td>
