@@ -1,4 +1,4 @@
-<!-- ![logo](https://github.com/sahilatahar/Code-Sync/assets/100127570/d1ff7f52-a692-4d51-b281-358aeab9156e) -->
+<!-- ![logo](https://github.com/mitrarajdeep2001/We-Code/assets/100127570/d1ff7f52-a692-4d51-b281-358aeab9156e) -->
 
 A collaborative, real-time code editor where users can seamlessly code together. It provides a platform for multiple users to enter a room, share a unique room ID, and collaborate on code simultaneously.
 
@@ -52,7 +52,7 @@ You can view the live preview of the project.
 1. **Fork this repository:** Click the Fork button located in the top-right corner of this page.
 2. **Clone the repository:**
    ```bash
-   git clone https://github.com/<your-username>/Code-Sync.git
+   git clone https://github.com/mitrarajdeep2001/WeCode.git
    ```
 3. **Create .env file:**
    Inside the client and server directories create `.env` and set:
@@ -66,7 +66,7 @@ You can view the live preview of the project.
    Backend:
 
    ```bash
-   PORT=3000
+   PORT=5000
    ```
 
 4. **Install dependencies:**
@@ -103,9 +103,9 @@ This project is licensed under the [MIT License](LICENSE).
   <tbody>
     <tr>
       <td align="center" valign="top">
-        <img src="https://github.com/mitrarajdeep2001.png" width="120px;" alt="Sahil Atahar"/>
+        <img src="https://github.com/mitrarajdeep2001.png" width="120px;" alt="Rajdeep Mitra"/>
         <br />
-        <b>Sahil Atahar</b>
+        <b>Rajdeep Mitra</b>
       </td>
     </tr>
     <tr>
