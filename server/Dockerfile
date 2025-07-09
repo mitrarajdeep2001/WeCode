@@ -26,7 +26,7 @@ COPY --from=builder /build/node_modules /node_modules
 COPY --from=builder /build/package*.json .
 
 # Optional Expose a port
-EXPOSE 3000
+EXPOSE 5000
 
 # Start the server
 CMD ["npm", "run", "start"]
