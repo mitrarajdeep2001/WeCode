@@ -1,4 +1,4 @@
-<!-- ![logo](https://github.com/mitrarajdeep2001/We-Code/assets/100127570/d1ff7f52-a692-4d51-b281-358aeab9156e) -->
+<!-- ![logo](https://github.com/mitrarajdeep2001/WeCode/blob/master/preview.png) -->
 
 A collaborative, real-time code editor where users can seamlessly code together. It provides a platform for multiple users to enter a room, share a unique room ID, and collaborate on code simultaneously.
 
