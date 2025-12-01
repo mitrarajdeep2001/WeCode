@@ -17,6 +17,12 @@ app.use(cors())
 
 app.use(express.static(path.join(__dirname, "public"))) // Serve static files
 
+app.use(express.static(path.join(__dirname, "../../client/dist")));
+
+app.get("*", (_req, res) => {
+  res.sendFile(path.join(__dirname, "../../client/dist/index.html"));
+});
+
 const server = http.createServer(app)
 const io = new Server(server, {
 	cors: {
