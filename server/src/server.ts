@@ -19,8 +19,8 @@ app.use(express.static(path.join(__dirname, "public"))) // Serve static files
 
 app.use(express.static(path.join(__dirname, "../client/dist")));
 
-app.get("*", (_req, res) => {
-  res.sendFile(path.join(__dirname, "../../client/dist/index.html"));
+app.get("/", (_req, res) => {
+  res.sendFile(path.join(__dirname, "../client/dist/index.html"));
 });
 
 const server = http.createServer(app)
@@ -268,10 +268,10 @@ io.on("connection", (socket) => {
 
 const PORT = process.env.PORT
 
-app.get("/", (req: Request, res: Response) => {
-	// Send the index.html file
-	res.sendFile(path.join(__dirname, "..", "public", "index.html"))
-})
+// app.get("/", (req: Request, res: Response) => {
+// 	// Send the index.html file
+// 	res.sendFile(path.join(__dirname, "..", "public", "index.html"))
+// })
 
 server.listen(PORT, () => {
 	console.log(`Listening on port ${PORT}`)
