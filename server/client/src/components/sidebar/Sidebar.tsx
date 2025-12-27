@@ -10,8 +10,8 @@ import { VIEWS } from "@/types/view"
 import { IoCodeSlash } from "react-icons/io5"
 import { MdOutlineDraw } from "react-icons/md"
 import cn from "classnames"
-import { Tooltip } from 'react-tooltip'
-import { useState } from 'react'
+import { Tooltip } from "react-tooltip"
+import { useState } from "react"
 import { tooltipStyles } from "./tooltipStyles"
 
 function Sidebar() {
@@ -55,30 +55,36 @@ function Sidebar() {
                 <SidebarButton
                     viewName={VIEWS.FILES}
                     icon={viewIcons[VIEWS.FILES]}
+                    activeViewName={activeView}
                 />
                 <SidebarButton
                     viewName={VIEWS.CHATS}
                     icon={viewIcons[VIEWS.CHATS]}
+                    activeViewName={activeView}
                 />
                 <SidebarButton
                     viewName={VIEWS.COPILOT}
                     icon={viewIcons[VIEWS.COPILOT]}
+                    activeViewName={activeView}
                 />
                 <SidebarButton
                     viewName={VIEWS.RUN}
                     icon={viewIcons[VIEWS.RUN]}
+                    activeViewName={activeView}
                 />
                 <SidebarButton
                     viewName={VIEWS.CLIENTS}
                     icon={viewIcons[VIEWS.CLIENTS]}
+                    activeViewName={activeView}
                 />
                 <SidebarButton
                     viewName={VIEWS.SETTINGS}
                     icon={viewIcons[VIEWS.SETTINGS]}
+                    activeViewName={activeView}
                 />
 
                 {/* Button to change activity state coding or drawing */}
-                <div className="flex h-fit items-center justify-center">
+                <div className="flex h-fit items-center justify-center border-t">
                     <button
                         className="justify-cente flex items-center  rounded p-1.5 transition-colors duration-200 ease-in-out hover:bg-[#3D404A]"
                         onClick={changeState}

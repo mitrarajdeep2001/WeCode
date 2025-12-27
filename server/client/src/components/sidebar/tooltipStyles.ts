@@ -11,5 +11,6 @@ export const tooltipStyles = {
 export const buttonStyles = {
     base: "relative flex items-center justify-center rounded transition-colors duration-200 ease-in-out p-2",
     hover: "hover:bg-[#3D404A]",
+    active: "bg-[#5A5B5E]",
 }
 
