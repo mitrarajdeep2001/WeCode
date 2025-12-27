@@ -50,7 +50,7 @@ function EditorPage() {
     return (
         <SplitterComponent>
             <Sidebar />
-            <WorkSpace/>
+            <WorkSpace />
         </SplitterComponent>
     )
 }

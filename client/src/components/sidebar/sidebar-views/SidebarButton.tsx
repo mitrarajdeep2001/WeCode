@@ -8,9 +8,10 @@ import { buttonStyles, tooltipStyles } from "../tooltipStyles"
 interface ViewButtonProps {
     viewName: VIEWS
     icon: JSX.Element
+    activeViewName?: VIEWS
 }
 
-const ViewButton = ({ viewName, icon }: ViewButtonProps) => {
+const ViewButton = ({ viewName, icon, activeViewName }: ViewButtonProps) => {
     const { activeView, setActiveView, isSidebarOpen, setIsSidebarOpen } =
         useViews()
     const { isNewMessage } = useChatRoom()
@@ -30,7 +31,9 @@ const ViewButton = ({ viewName, icon }: ViewButtonProps) => {
             <button
                 onClick={() => handleViewClick(viewName)}
                 onMouseEnter={() => setShowTooltip(true)} // Show tooltip again on hover
-                className={`${buttonStyles.base} ${buttonStyles.hover}`}
+                className={`${buttonStyles.base} ${buttonStyles.hover} ${
+                    activeViewName === viewName ? "bg-[#5A5B5E]" : ""
+                }`}
                 {...(showTooltip && {
                     "data-tooltip-id": `tooltip-${viewName}`,
                     "data-tooltip-content": viewName,
